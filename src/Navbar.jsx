@@ -20,6 +20,9 @@ function Navbar() {
         <a>
           <Link to="/shop">Shop</Link>
         </a>
+        <a>
+          <Link>Contact Us</Link>
+        </a>
     </div>
   );
 }

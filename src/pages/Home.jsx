@@ -3,7 +3,7 @@ import "../index.css";
 
 function Home() {
     return (
-        <div>
+        <div class="content">
             <section class="himg">
                 <h1>Home</h1>
                 <button>Learn More</button>

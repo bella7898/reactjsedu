@@ -3,7 +3,7 @@ import "../index.css";
 
 function Join() {
     return (
-        <div>
+        <div class="content">
             <section class="jimg">
                 <h1>Join Us!</h1>
             </section>

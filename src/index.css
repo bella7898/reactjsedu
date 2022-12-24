@@ -15,12 +15,12 @@ code {
 
 .nav{
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
 }
 
 .nav a{
   float: left;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -28,27 +28,69 @@ code {
 }
 
 .nav a:hover{
-  color: black;
-  background-color: #f2f2f2;
+  color: #38B6FF;
+}
+
+.content{
+  overflow: hidden;
+}
+
+.content section{
+  padding: 14px 16px;
+  float: left;
 }
 
 .footer{
   overflow: hidden;
-  background-color: #333;
+  background-color: #38B6FF;
+}
+
+.footer p{
+  color: lightgrey;
 }
 
 .footer a{
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 17px;
+}
+
+.footer .copyright{
+  float: right;
+  padding: 5px 10px;
 }
 
 .footer a:hover{
   color: black;
   background-color: #f2f2f2;
+}
+
+.footer .copyright:hover{
+  color: darkgrey;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 

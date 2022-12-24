@@ -3,7 +3,7 @@ import "../index.css";
 
 function About() {
     return (
-        <div>
+        <div class="content">
             <section class="aimg">
                 <h1>About</h1>
             </section>

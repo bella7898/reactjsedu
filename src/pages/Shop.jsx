@@ -3,7 +3,7 @@ import "../index.css";
 
 function Shop() {
     return (
-        <div>
+        <div class="content">
             <section class="simg">
                 <h1>Shop</h1>
             </section>

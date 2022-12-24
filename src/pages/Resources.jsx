@@ -3,7 +3,7 @@ import "../index.css";
 
 function Resources() {
     return (
-        <div>
+        <div class="content">
             <section class="rimg">
                 <h1>Resources</h1>
             </section>
